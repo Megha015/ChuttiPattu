@@ -636,10 +636,10 @@ span.text-red {
     height: 560px;
   }
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 20%;
+    height: 20%;
+    bottom: 2;
+    right: 5%;
   }
   .footer-banner-container {
     height: 560px;
@@ -686,7 +686,8 @@ span.text-red {
     z-index: 10000;
   }
   .desc {
-    bottom: 60px;
+    bottom: 20px;
+    left: 40px;
   }
   .product-detail-container {
     flex-wrap: wrap;
@@ -712,6 +713,13 @@ span.text-red {
     width: 25%;
     height: 25%;
   }
+
+  .product-detail-desc .buttons {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
   .buttons .add-to-cart {
     width: 150px;
   }
