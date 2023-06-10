@@ -3,7 +3,6 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import { client, urlFor } from "../../lib/client";
 import { Product } from "../../components";
 import OrderModal from "../../components/OrderModal";
-import ImageGallery from "react-image-gallery";
 
 const ProductDetails = ({ product, products }) => {
   const { image, name, details, price } = product;
