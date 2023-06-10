@@ -11,11 +11,6 @@ const Navbar = () => {
         <Link href="/">Chutti Pattu&apos;s Ethnic Collections</Link>
       </p>
       <Image src={pic1} width={50} height={50} alt="chutti" />
-
-      {/* <button type="button" className="cart-icon" onClick="">
-        <AiOutlineShopping />
-        <span className="cart-item-qty">1</span>
-      </button> */}
     </div>
   );
 };
