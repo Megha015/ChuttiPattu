@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Chutti Pattu's Ethnic Collections</Link>
+        <Link href="/">Chutti Pattu&apos;s Ethnic Collections</Link>
       </p>
       <Image src={pic1} width={50} height={50} alt="chutti" />
 
