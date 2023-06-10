@@ -1,12 +1,12 @@
 import { client } from "../../lib/client";
-// import Layout from "../../components/Layout";
-// import css from "../../styles/Order.module.css";
-// import { UilBill, UilBox } from "@iconscout/react-unicons";
-// import Cooking from "../../assets/cooking.png";
-// import Onway from "../../assets/onway.png";
-// import Image from "next/image";
-// import Spinner from "../../assets/spinner.svg";
-// import { useEffect } from "react";
+import Layout from "../../components/Layout";
+import css from "../../styles/Order.module.css";
+import { UilBill, UilBox } from "@iconscout/react-unicons";
+import Cooking from "../../assets/cooking.png";
+import Onway from "../../assets/onway.png";
+import Image from "next/image";
+import Spinner from "../../assets/spinner.svg";
+import { useEffect } from "react";
 
 export const getServerSideProps = async ({ params }) => {
   const query = `*[_type == 'order' && _id == '${params.id}']`;
