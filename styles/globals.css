@@ -654,8 +654,23 @@ span.text-red {
     bottom: 2;
     right: 5%;
   }
+
+  .products-heading {
+    text-align: center;
+    margin: 40px 30px;
+    color: #324d67;
+  }
+  .products-heading h2 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .products-heading p {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 200;
+  }
   .footer-banner-container {
-    height: 220px;
+    height: 250px;
     margin-top: 80px;
   }
   .footer-banner-image {
@@ -700,7 +715,7 @@ span.text-red {
   }
   .desc {
     bottom: 60px;
-    left: 40px;
+    left: 30px;
   }
   .product-detail-container {
     flex-wrap: wrap;
