@@ -130,7 +130,7 @@ span.text-red {
 }
 
 .hero-banner-container {
-  padding: 100px 40px;
+  padding: 80px 40px;
   background-color: pink;
   border-radius: 15px;
   position: relative;
@@ -647,6 +647,8 @@ span.text-red {
 @media screen and (max-width: 800px) {
   .hero-banner-container {
     height: 480px;
+    /* display: flex;
+    align-items: flex-start; */
   }
   .hero-banner-image {
     width: 10%;
@@ -708,6 +710,8 @@ span.text-red {
   }
   .hero-banner-container h3 {
     font-size: 40px;
+    margin-top: 0;
+    padding-top: 0;
   }
   .hero-banner-container button {
     margin-top: 90px;
