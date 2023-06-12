@@ -1,14 +1,21 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { client } from "../lib/client";
 import { Product, FooterBanner, HeroBanner } from "../components";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Home = ({ products, bannerData }) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
 
       <div className="products-heading">
-        <h2>Best selling products</h2>
-        <p>Customized Ethnic collections for your Chutti Pattus</p>
+        <h2 data-aos="zoom-in">Best selling products</h2>
+        <p data-aos="zoom-out">
+          Customized Ethnic collections for your Chutti Pattus
+        </p>
       </div>
       <div className="products-container">
         {products?.map((product) => (
